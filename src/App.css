@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(3, 3, 3);
 }
 
 .App-link {
@@ -35,4 +35,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #030303;
+  padding: 10px;
+  width: 200px; /* Adjust width as needed */
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-top: 10px;
 }

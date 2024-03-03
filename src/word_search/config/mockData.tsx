@@ -1,0 +1,1 @@
+export const mockData = "The error message Cant resolve web-vitals in... typically indicates that your project is trying to import the web-vitals module but cannot find it in the specified location";
